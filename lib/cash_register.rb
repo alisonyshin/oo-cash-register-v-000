@@ -33,9 +33,9 @@ attr_accessor :total, :discount, :items
     end
   end
   
-  # def items
-  #   self.items.keys
-  # end
+  def items
+     self.items.keys
+  end
   
   def void_last_transaction
     self.total = self.total - self.items.values.last
