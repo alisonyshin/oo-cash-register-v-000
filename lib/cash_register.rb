@@ -34,7 +34,7 @@ attr_accessor :total, :discount, :items
   end
   
   def items
-  binding pry
+    self.items
   end
   
   def void_last_transaction
